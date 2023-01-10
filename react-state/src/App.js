@@ -13,15 +13,16 @@ import './App.css';
 function App() {
   const [item, setItem] = useState('');
 
-  function showItems(operator) {
-    // setItem(item);
-    console.log(operator);
-    // return item;
-  }
+  // function showItems(operator) {
+  //   // setItem(item);
+  //   console.log(operator);
+  //   // return item;
+  // }
 
   return (
     <div className="App">
       <div className="inputs">{item}</div>
+
       <div className="digits">
         <button onClick={() => setItem('1')}>1</button>
         <button onClick={() => setItem('2')}>2</button>
